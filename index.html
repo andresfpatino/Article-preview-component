@@ -1,36 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Article preview component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  	<meta name="author" content="Andrés Patiño">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  	<link rel="stylesheet" href="assets/main.css">
+  	<title>Frontend Mentor | Article preview component</title>
 </head>
 <body>
-
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
-
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
-
-  Michelle Appleton
-  28 Jun 2020
-
-  Share
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+<div class="container">
+	<div class="preview-article">
+		<div class="__image"><a href="#"></a></div>
+		<div class="__content">
+			<div class="__post">				
+				<h3 class="__title"><a href="#">Shift the overall look and feel by adding these wonderful touches to furniture in your home</a></h3>
+				<p class="__excerpt">
+					Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I've got some simple tips to help you make any room feel complete.
+				</p>				
+				<div class="__footer-author">				
+					<div class="__author">
+						<div class="__author-picture">
+							<img src="assets/images/avatar.png" alt="Andrés Patiño">
+						</div>
+						<div class="__author-profile">
+							<p class="__name">Andrés Patiño</p>
+							<p class="__date"><date>11 Jul 2020</date></p>
+						</div>
+					</div>
+					<div class="__share">
+						<div class="__toltip">
+							<ul class="__share-icons">
+								<li><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.frontendmentor.io/profile/andresfpatino"><img src="assets/images/icon-facebook.svg" alt=""></a></li>
+								<li><a target="_blank" href="https://twitter.com/home?status=https://www.frontendmentor.io/profile/andresfpatino "><img src="assets/images/icon-twitter.svg" alt=""></a></li>
+								<li><a target="_blank" href="https://pinterest.com/pin/create/button/?url=https://www.frontendmentor.io/profile/andresfpatino&media=&description="><img src="assets/images/icon-pinterest.svg" alt=""></a></li>
+							</ul>
+						</div>						
+						<img class="__share-ico" src="assets/images/icon-share.svg" alt="Share">						
+					</div>
+				</div>				
+			</div>
+		</div>
+  	</div>
+</div>
+<div class="attribution">
+	 Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+	Coded by <a href="#">Andrés Patiño</a>.
+</div>
 </body>
 </html>
