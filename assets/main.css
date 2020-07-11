@@ -31,7 +31,6 @@ body {
   border-radius: 15px;
   display: flex;
   flex-wrap: wrap;
-  overflow: hidden;
 }
 
 .__image {
@@ -42,7 +41,8 @@ body {
   background-position: left center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .__image a {
@@ -223,6 +223,9 @@ body {
     line-height: 65px;
     border-radius: 0;
     bottom: -16px;
+  }
+  .__image {
+    border-radius: 15px 15px 0 0px;
   }
 }
 
